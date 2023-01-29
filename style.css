@@ -1,0 +1,195 @@
+body{
+  margin: 0px;
+  
+  background-color:black;
+}
+ h1{
+  margin: 0px;
+  padding: 0px;
+ }
+ h3{
+  margin:0px;
+  padding: 0px;
+ }
+ span{
+  font-weight: bold;
+ }
+.about{
+  color:#FFFFFF;
+  font-family: Quicksand,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  position:relative;
+  padding-top: 11%;
+  padding-left:3%;
+}
+.fist section{
+  position:relative;
+  top:150px;
+  
+}
+.aboutmesection{
+ 
+  margin: 0;
+  position: relative;
+  padding: 30px 30px;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(217, 217, 217);
+  font-family: Quicksand,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  top:70%;
+  background-color:#050303;
+}
+.picture{
+  background-color:black;
+  position:relative;
+  display: flex;
+  
+ padding-left: 35%;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+.buttons{
+  position:relative;
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-box-pack: end;
+  justify-content:end;
+  -webkit-box-align: end;
+  align-items: end;
+  padding-top: 1%;
+}
+.home-button
+      {
+          background-color: black;
+          color: white;
+          height: 36px;
+          border-color: white;
+          width: 105px;
+          border-radius: 30px;
+          cursor: pointer;
+          margin-right: 8px;
+          transition: opacity 1s;
+          cursor: pointer;
+          margin-right: 8px;
+          transition:background-color 1s,color 1s;
+      }
+  
+      .home-button:hover
+      {
+          
+          border:none;
+          color: black;
+          background:white;
+      }
+  
+      .home-button:active
+      {
+        opacity:0.8;
+        border:none;
+          color: black;
+          background:white;
+      }
+  
+      .projects-button:hover
+      {
+          border:none;
+          color: black;
+          background:white;
+      }
+      .projects-button:active
+      {
+        border:none;
+          color: black;
+          background:white;
+          opacity:0.8;
+      }
+  
+      .projects-button
+      {
+        background-color: black;
+          color: white;
+          height: 36px;
+          border-color: white;
+          width: 105px;
+          border-radius: 30px;
+          cursor: pointer;
+          margin-right: 8px;
+          transition: opacity 1s;
+          cursor: pointer;
+          margin-right: 8px;
+          transition:background-color 1s,color 1s;
+      }
+      .Contactme-button
+      {
+        background-color: black;
+          color: white;
+          height: 36px;
+          border-color: white;
+          width: 105px;
+          border-radius: 30px;
+          cursor: pointer;
+          margin-right: 8px;
+          transition: opacity 1s;
+          cursor: pointer;
+          margin-right: 8px;
+          transition:background-color 1s,color 1s;
+          
+      }
+      .Contactme-button:hover
+      {
+        border:none;
+          color: black;
+          background:white;
+      }
+      .Contactme-button:active
+      {
+        opacity:0.8;
+        border:none;
+          color: black;
+          background:white;
+      }
+      .write{
+        font-size: 14px;
+     padding: 10px 0px;
+    margin: 0px;
+    max-width: 450px;
+    width: 100%;
+    text-align: left;
+      }
+      .image{
+        height:38px;
+        width: 38px;
+        cursor:pointer;
+        padding:10px;
+      }
+      .github{
+        height:38px;
+        width: 38px;
+        cursor:pointer;
+        padding:10px;
+        margin:none;
+      }
+      .images{
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .tit{
+        height:47px;
+        width: 47px;
+        cursor:pointer;
+        padding:10px;
+        margin:none;
+      }
+      .pad{
+        padding-bottom:2%;
+      }
+      .hack{
+        height:42px;
+        width: 42px;
+        cursor:pointer;
+        padding:10px;
+        margin:none;
+      }
