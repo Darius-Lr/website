@@ -76,6 +76,86 @@ body{
   
  
 }
+.primalinie{
+  display:flex;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.adoualinie{
+  display:flex;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.dotari{
+  width:300px;
+  height:300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border:none;
+  background-color:rgb(16 16 18);
+  position:relative;
+  overflow: hidden;
+  border-radius: 10px 10px 10px;
+}
+.triunghi{
+  width: 12px;
+  height: 0px;
+  left:-12px;
+  border-top: 70px solid rgb(22, 23, 27);
+  border-right: 70px solid transparent;
+  position: absolute;
+  border-radius: 10px 0px 0px;
+}
+.tiunghi:hover{
+  border-top: 300px solid rgb(22, 23, 27);
+  border-right: 300px solid transparent;
+  
+}
+.text{
+  position:absolute;
+  color:white;
+  
+  
+  margin-top: 180px;
+  font-size: 20px;
+  font-family: Quicksand,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.text2{
+  position:absolute;
+  color:white;
+  display:flex;
+  padding-left:30%;
+  margin-top: 180px;
+  font-size: 20px;
+  font-family: Quicksand,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.react{
+  height:100px;
+  position:absolute;
+  margin-top:65px;
+  margin-left: 95px;
+  margin-right:62px;
+}
+.boot{
+  height:120px;
+  position:absolute;
+  margin-top:65px;
+  margin-left: 95px;
+  margin-right:65px;
+}
+.k{
+  height:110px;
+  position:absolute;
+  margin-top:65px;
+  margin-left: 100px;
+  margin-right:62px;
+}
 .buttons{
   position:sticky;
   display: flex;
@@ -177,10 +257,10 @@ body{
           background:white;
       }
       .write{
-        font-size: 14px;
+        font-size: 15px;
      padding: 10px 0px;
     margin: 0px;
-    max-width: 450px;
+    max-width: 500px;
     width: 100%;
     text-align: left;
       }
@@ -237,6 +317,13 @@ body{
         line-height: 15px;
   
       }
+      .topu{
+        margin: 0px;
+        padding: 0px;
+        font-size:34px;
+      color:rgb(11, 243, 11);
+      line-height: 1.6;
+      }
     h2{
       padding-top: 1%;
       line-height:1.8;
@@ -269,7 +356,10 @@ body{
           color: black;
           background:rgb(0, 243, 0);
       }
-  
+      h3{
+        color:#228f74;
+        font-size: 20px;
+      }
       message:active
       {
         opacity:0.8;
@@ -281,8 +371,28 @@ body{
         padding-bottom: 2%;
       }
       .skills{
-           padding-top: 10%;
-           padding-bottom: 10%;
-           background-color: rgba(0, 0, 0, 0.422);
+           padding-top: 3%;
+           padding-bottom: 5%;
+           background-color: rgb(23 17 17 / 42%);
+           display: flex;
+        flex-flow: column wrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
       }
+      .form{
+        width:100%;
+        height:100%;
+      }
+      .aliniere{
+        display: flex;
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+      }
+      
     
