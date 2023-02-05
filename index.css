@@ -101,7 +101,23 @@ body{
   background-color:rgb(16 16 18);
   position:relative;
   overflow: hidden;
-  border-radius: 10px 10px 10px;
+  --c: rgb(22, 23, 27);
+  line-height: 1.2em;
+  background-image:
+    conic-gradient(from -135deg at 100%  50%, var(--c) 90deg, #0000 0),
+    conic-gradient(from -0deg at 0% 0%, #0000 90deg, var(--c) 0);
+  background-position:
+    0 100%,
+    0 0;
+  background-size: 0% 200%;
+  background-repeat: no-repeat;
+  transition: background-size 1s, background-position 0s;
+}
+.dotari:hover{
+  background-size: 100% 200%;
+  background-position:
+    0 100%,
+    100% 100%;
 }
 .triunghi{
   width: 12px;
