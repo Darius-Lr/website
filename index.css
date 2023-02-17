@@ -197,7 +197,13 @@ body{
           margin-right: 8px;
           transition:background-color 1s,color 1s;
       }
-  
+      .odata{
+        display:flex;
+        width:100%;
+        vertical-align: middle;
+  text-align: center;
+        margin-top:200px;
+      }
       .home-button:hover
       {
           
@@ -316,6 +322,7 @@ body{
       }
       .contactu{
         margin: 0;
+        
         position: relative;
         padding: 30px 30px;
         padding-top: 3%;
@@ -410,5 +417,50 @@ body{
     align-items: center;
     padding-bottom: 2%;
       }
-      
-    
+      @media only screen and (max-width: 800px) {
+        .logo{
+          max-width: 50%;
+          height: auto;
+        }
+      }
+      @media only screen and (max-width: 380px) {
+        .logo{
+          max-width: 30%;
+          height: auto;
+        }
+        .about{
+          font-size: 10px;
+        }
+        h3{
+          font-size: 14px;
+        }
+        .contactu{
+          font-size: 13px;
+        }
+        h2{
+          font-size: 18px;
+          padding: 10px;
+        }
+        .topu{
+          font-size:30px;
+        }
+        .aboutmesection{
+          font-size:12px;
+        }
+        .write{
+          font-size:13px;
+        }
+        .image{
+          height: 34px;
+          width: 34px;
+        }
+        .github{
+          height: 34px;
+    width: 34px;
+        }
+        .hack{
+          height: 37px;
+    width: 37px;
+        }
+     
+      }
