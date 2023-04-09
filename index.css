@@ -3,6 +3,39 @@ body{
   
   background-color:black;
 }
+#bot2{
+  position: relative;
+  width:100%;
+  height:100px;
+  color:rgb(53, 208, 53);
+  z-index: 2;
+
+ 
+}
+#bot3{
+  position: relative;
+  width:100%;
+  height:250px;
+  color:rgb(53, 208, 53);
+  z-index: 2;
+}
+#bot{
+  position: fixed;
+  left: auto;
+  top: auto;
+  width: 350px;
+  height: 600px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 1;
+  background-color: rgb(59, 54, 54);
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.invisible{
+  visibility:hidden;
+}
 .logo{
   max-width: 100%;
   height: auto;
@@ -77,12 +110,13 @@ body{
  
 }
 .primalinie{
-  display:flex;
-  flex-flow: row wrap;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+  display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1024px;
 }
 .adoualinie{
   display:flex;
