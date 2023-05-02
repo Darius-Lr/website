@@ -446,7 +446,7 @@ body{
       .skills{
            padding-top: 3%;
            padding-bottom: 5%;
-           background-color: rgb(23 17 17 / 42%);
+           background-color: rgb(10 9 9);
            display: flex;
         flex-flow: column wrap;
         -webkit-box-pack: center;
