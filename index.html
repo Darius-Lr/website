@@ -9,16 +9,51 @@
   <link rel="icon" href="du.gif">
 </head>
 <body>
+  <div id="email1" class="invisible">
+  <div id="email2">
+    <p class="white2"> Send a message</p>
+   <img class="rotund2" src="WhatsApp_Image_2023-05-06_at_22.47.03-removebg-preview.png">
+  <p class="white">Hi!</p>
+  <p class="white">How can i help?</p>
+  
+  </div>
+  <div class="email3">
+    <form class="email3" action="index.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">How can i help?</label>
+      <textarea  id="message" name="message" cols="30" rows="10"></textarea>
+      <input type="submit" value="Send me a message" class="naspa">
+    </form>
+  </div>
+  </div>
   <div class="invisible" id="bot">
-    <div class="invisible" id="bot2"></div>
-    <div class="invisible" id="bot3"></div>
+    <div class="invisible" id="bot2">
+      <div class="ye"> <img class="rotund" src="WhatsApp_Image_2023-05-06_at_22.47.03-removebg-preview.png">
+      </div> 
+      <div class="no"><p class="font">Darius Bot</p>
+      <p>Ask me a question</p></div>
+      <div><button onclick="remove()" class="nothing" style="font-size:27px">&#x2715; </button></div>
+  </div>
+    
+    <div class="invisible" id="bot3">
+      <div class="bubble">Hi</div>
+      <div class="bubble">I'm Darius Bot. I'm here to help you with any questions you might have about Darius's work.</div>
+      <div class="bubble">How can I help you today?</div>
+      <button  class="olx" id="mybutton">Just saying hello!</button>
+      <button  class="olx" id="mybutton2">We'd like to hire you</button>
+    </div>
     </div>
 
   
-  
+  <div class="culor">
   <div class="buttons">
     
-  <a><button class="home-button" >
+  <a><button class="home-button" href="index.html" >
   Home</button>
 </a>
       
@@ -42,6 +77,7 @@
  </div >
   </div>
   </div>
+
   <section class="aboutmesection" style="padding-bottom: 20px;">
   <div class="pad">
     
@@ -54,14 +90,14 @@
       
   </div>
   <div class="images">
-  <a href="https://www.linkedin.com/in/darius-lare-1bb44a111/" target="_blank"><img class="image" src="linkedin.png"> </a>
-  <a href="https://github.com/Darius-Lr" target="_blank"><img class="github" src="github.png"> </a>
-  <a href="https://twitter.com/LareDarius" target="_blank"><img class="tit" src="twitter.png"> </a>
-  <a href="https://www.hackerrank.com/darclau2005" target="_blank"><img class="hack" src="hack.png"> </a>
-  
+  <div class="up"><a href="https://www.linkedin.com/in/darius-lare-1bb44a111/" target="_blank"><img class="image" src="download-PhotoRoom.png-PhotoRoom.png"> </a></div>
+  <div class="up2"><a href="https://github.com/Darius-Lr" target="_blank"><img class="github" src="github.png"> </a></div>
+  <div class="up"><a href="https://twitter.com/LareDarius" target="_blank"><img class="tit" src="twitter.png"> </a></div>
+  <div class="up"><a href="https://www.hackerrank.com/darclau2005" target="_blank"><img class="hack" src="hack.png"> </a></div>
+ </div>  
 
   </section>
-</div>
+
 <div class="skills">
   <div class="aliniere">
   <h3 class="sestie">A part of what i know</h3>
@@ -71,7 +107,7 @@
     
     <div class="dotari">
       <div class="triunghi"></div>
-        <img class="k" src="pngegg (1).png";>
+        <img class="k" src="pngegg (1).png">
         <div class="lata">
           <h1 class="odata"></h1>
         <p></p>
@@ -84,7 +120,7 @@
     <div class="dotari">
       
         <div class="triunghi"></div>
-        <img class="boot" src="62a76492bd73a4af5c5d4fb9.png";>
+        <img class="boot" src="62a76492bd73a4af5c5d4fb9.png">
         <div class="text">
         <p ></p>
       </div>
@@ -92,22 +128,22 @@
     <div class="dotari">
       
         <div class="triunghi"></div>
-      <img class="k" src="pngegg.png";>
+      <img class="k" src="pngegg.png">
     </div>
     <div class="dotari">
   
       <div class="triunghi"></div>
-        <img class="react" src="kisspng-react-javascript-library-github-5af70e3c5c73d5.5239164815261404763787.png";>
+        <img class="react" src="kisspng-react-javascript-library-github-5af70e3c5c73d5.5239164815261404763787.png">
     </div>
     <div class="dotari">
       <div class="triunghi"></div>
-    <img class="react" src="pngwing.com.png";>
+    <img class="react" src="pngwing.com.png" >
       
     </div>
     <div class="dotari">
     
       <div class="triunghi"></div>
-      <img class="k" src="toppng.com-javascript-logo-number-angularjs-node-javascript-logo-662x750.png";>
+      <img class="k" src="toppng.com-javascript-logo-number-angularjs-node-javascript-logo-662x750.png">
   </div>
   </div>
   
@@ -117,7 +153,7 @@
   <h2>I'm currently available for freelance work.</h2>
   <p class="spat"> If you have a project that you want to get started, think you need my help </p>
   <p class="spatiu">with something or just fancy saying hey, then get in touch.</p>
-  <button class="message">Contact me</button>
+  <button  onclick="myFunction()" class="message">Contact me</button>
 </div>
 
 
