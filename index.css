@@ -727,6 +727,84 @@ textarea{
     align-items: center;
     padding-bottom: 2%;
       }
+      @media only screen and (max-width:770px)
+      {
+        #bot{
+         
+          
+          
+          right:20px;
+        }
+        #email1{
+          right:20px;
+        }
+
+       
+      }
+      @media only screen and (max-width:370px)
+      {
+        #bot{
+         
+          
+          
+          right:0px;
+        }
+        #email1{
+          right:0px;
+        }
+       
+      }
+      @media only screen and (max-height:650px)
+      {
+        #bot{
+         
+          bottom:0px;
+          
+          
+        }
+        #email1{
+          bottom:0px;
+        }
+       
+      }
+      @media only screen and (max-height:600px)
+      {
+        #bot{
+         
+          height:500px;
+          bottom:20px;
+          
+        }
+        #bot3{
+          height:400px;
+        }
+        #email1{
+          bottom:20px;
+        }
+        #email{
+          height:500px;
+        }
+        .email3{
+          height:400px;
+        }
+       
+      }
+      @media only screen and (max-height:520px)
+      {
+        #bot{
+         
+          height:500px;
+          bottom:0px;
+          
+        }
+        #bot3{
+          height:400px;
+        }
+        #email1{
+          bottom:0px;
+        }
+       
+      }
       @media only screen and (max-width: 800px) {
         .logo{
           max-width: 50%;
